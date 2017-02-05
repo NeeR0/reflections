@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+ans:1.建立了一个.git目录。
+    2.初始化以后才能往里面添加代码。
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+ans:1.staging area可以多次存入一次提交，类似于缓冲区，working directory和repository都没有一次提交功能
+    2.把改动存在staging area便于多次修改一次提交
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+ans：每进行一项逻辑修改，用一次git add和git commit
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+ans：1.有多个功能特性的版本；有新功能测试版本
+     2.分支命名选择有意义的能说明分支特点的，就可以切换到特定分支检查了
+
+How do the diagrams help you visualize the branch structure?
+ans: 1.自己重新建了代码库测试merge，图表会把两个分支的提交分开
+
+What are the pros and cons of Git鈥檚 automatic merging vs. always doing merges
+manually?
+ans: sorry i dont know
