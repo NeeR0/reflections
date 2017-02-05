@@ -1,29 +1,34 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
-
+   1.提交修改
+   2.协同作业
+   
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
-
+   1.有些修改想要只有自己能看到不想分享
+   2.自己想保留自己更改的版本而不想使用协同开发的版本
+   
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
-
+   1.github上fork别人的repository
+   2.clone用于使用url把repository复制到主机
+   3.branch在主机中修改的时候使用
+   
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+   1.便于处比较，处理来自多个人的冲突性更改 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
-
+   1.email
+   2.每次改动前都要开会！？
+   
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+   1.要改动多个地方；做非正式改动，测试用；需要和别人讨论，短时间无法确定改动
+   2.直接在master改步骤少，快速见效；在其他分支改，保证不引入其他错误，主分支仍能运行，其他分支确定没问题再合并进来
